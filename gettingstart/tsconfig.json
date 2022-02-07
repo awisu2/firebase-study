@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2015",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./node_modules"]
+    }
+  }
+}
