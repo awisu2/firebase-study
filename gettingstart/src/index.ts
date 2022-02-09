@@ -1,3 +1,11 @@
 import { db, getCities } from "./firebase.app";
 
-getCities(db);
+const ret = getCities(db);
+
+getCities(db)
+  .then((v) => {
+    console.log(v);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
